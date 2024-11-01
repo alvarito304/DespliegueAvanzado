@@ -1,0 +1,10 @@
+server{
+    listen 80;
+
+    root /var/www/html/test;
+    index index.html; 
+
+    location /test {
+        try_files $uri $uri/ /index.html;
+    }
+}
