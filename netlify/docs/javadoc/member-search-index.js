@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"dev.alvaroherrero","c":"Main","l":"Main()","u":"%3Cinit%3E()"},{"p":"dev.alvaroherrero","c":"Main","l":"main(String[])","u":"main(java.lang.String[])"},{"p":"dev.alvaroherrero","c":"Main","l":"printMessage(String)","u":"printMessage(java.lang.String)"}];updateSearchResults();
