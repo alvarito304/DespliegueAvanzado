@@ -127,3 +127,9 @@ networks:
 - en el docker compose hacemos que todos los servidores dependan de el build de la imagen para que cuando secree el build enlacemos su contenido con volumenes para poder copiar el contenido de esos volumenes a cada servidor ya que usaremos servidores apache y servidores nginx
 - luego hacemos que el contenedor que levanta el proxy dependa de los servidores y listo ya se estaran sirviendo nuestros test, documentacion y coverage, en paginas web a traves de nuestro proxy inverso.
     - para aprender a hacer un proxy inverso [click aqui](https://github.com/alvarito304/ReverseProxy)
+
+## Netlify
+
+Para desplegar la documentacion a traves de netlify, creamos una carpeta llamada netlify con un index y un css donde daremos acceso a las documentaciones  dentro de la carpeta de netlify tambien pegaremos las carpetas de documentaciones
+
+- **Este es el Resultado** [Mi despliegue avanzado](https://alvaroherrerodespliegueavanzado.netlify.app/) 
